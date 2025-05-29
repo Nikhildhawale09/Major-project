@@ -102,7 +102,9 @@ function App() {
                 path="/book"
                 element={
                   <ProtectedRoute>
-                    <DynamicBookingPage />
+                    <BookingPage/>
+                    {/* <DynamicBookingPage /> */}
+                    
                   </ProtectedRoute>
                 }
               />
