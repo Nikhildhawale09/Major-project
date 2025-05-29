@@ -10,25 +10,25 @@ import {
 
 const teamMembers = [
   {
-    name: "Sarah Johnson",
+    name: "Pravin Sakhare",
     role: "Lead Photographer - Mumbai",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=sarah",
+    image: "https://api.dicebear.com/9.x/avataaars/svg?seed=Nolan",
     bio: "Award-winning photographer with 10+ years of experience",
     specialization: "Weddings & Fashion",
     rating: 4.9,
     reviews: 128,
   },
   {
-    name: "Michael Chen",
+    name: "Nikhil Dhawale",
     role: "Senior Cinematographer - Delhi",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=michael",
+    image: "https://api.dicebear.com/9.x/avataaars/svg?seed=Kingston",
     bio: "Specialized in wedding and commercial videography",
     specialization: "Cinematography & Events",
     rating: 4.8,
     reviews: 95,
   },
   {
-    name: "Emma Davis",
+    name: "Shiv Supane",
     role: "Creative Director - Bangalore",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=emma",
     bio: "Visionary leader with a passion for storytelling",
@@ -37,16 +37,16 @@ const teamMembers = [
     reviews: 156,
   },
   {
-    name: "Raj Patel",
+    name: "Sarita Ghige",
     role: "Lead Photographer - Delhi",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=raj",
+    image: "https://api.dicebear.com/9.x/avataaars/svg?seed=Amaya",
     bio: "Expert in traditional and contemporary wedding photography",
     specialization: "Weddings & Portraits",
     rating: 4.7,
     reviews: 142,
   },
   {
-    name: "Priya Sharma",
+    name: "Sriya mukkavali",
     role: "Senior Photographer - Mumbai",
     image: "https://api.dicebear.com/7.x/avataaars/svg?seed=priya",
     bio: "Fashion and editorial photography specialist",
@@ -57,7 +57,7 @@ const teamMembers = [
   {
     name: "Alex Thompson",
     role: "Drone Specialist - Bangalore",
-    image: "https://api.dicebear.com/7.x/avataaars/svg?seed=alex",
+    image: "https://api.dicebear.com/9.x/avataaars/svg?seed=Luis",
     bio: "Pioneering aerial photography and cinematography",
     specialization: "Drone & Events",
     rating: 4.9,
@@ -67,20 +67,20 @@ const teamMembers = [
 
 const testimonials = [
   {
-    name: "Jessica & Tom",
+    name: "Shantanu & Shweta",
     text: "PixelFlare captured our wedding day perfectly. Every moment was beautifully documented.",
     role: "Wedding Clients - Mumbai",
-    photographer: "Sarah Johnson",
+    photographer: "Nikhil Dhawale",
     rating: 5,
-    date: "March 2024",
+    date: "March 2025",
   },
   {
     name: "Tech Innovations Inc.",
     text: "The commercial photography exceeded our expectations. Professional and creative team.",
     role: "Corporate Client - Bangalore",
-    photographer: "Emma Davis",
+    photographer: "Pravin Sakhare",
     rating: 4.8,
-    date: "February 2024",
+    date: "February 2025",
   },
   {
     name: "Maria & Rahul",
@@ -88,7 +88,7 @@ const testimonials = [
     role: "Wedding Clients - Delhi",
     photographer: "Raj Patel",
     rating: 5,
-    date: "January 2024",
+    date: "January 2025",
   },
   {
     name: "Fashion Forward",
@@ -96,7 +96,7 @@ const testimonials = [
     role: "Fashion Brand - Mumbai",
     photographer: "Priya Sharma",
     rating: 4.9,
-    date: "March 2024",
+    date: "March 2025",
   },
 ];
 
@@ -116,7 +116,7 @@ const AboutPage = () => {
               About PixelFlare
             </h1>
             <p className="text-white/70 max-w-2xl mx-auto text-lg leading-relaxed">
-              Founded in 2015, PixelFlare has been at the forefront of visual
+              Founded in 2025, PixelFlare has been at the forefront of visual
               storytelling, combining artistic vision with technical excellence
               to create stunning photography and cinematography.
             </p>

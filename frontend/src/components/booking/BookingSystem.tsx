@@ -41,7 +41,7 @@ const packages: Package[] = [
   {
     id: "basic",
     name: "Basic",
-    price: 999,
+    price: 49999,
     description: "Perfect for small events and personal shoots",
     features: [
       "4-Hour Photography Session",
@@ -54,7 +54,7 @@ const packages: Package[] = [
   {
     id: "premium",
     name: "Premium",
-    price: 2499,
+    price: 79999,
     description: "Ideal for weddings and special occasions",
     features: [
       "8-Hour Photo & Video Coverage",
@@ -69,7 +69,7 @@ const packages: Package[] = [
   {
     id: "professional",
     name: "Professional",
-    price: 1799,
+    price: 99999,
     description: "Great for commercial and portfolio shoots",
     features: [
       "6-Hour Photography Session",
@@ -83,12 +83,12 @@ const packages: Package[] = [
 ];
 
 const additionalServices: AdditionalService[] = [
-  { id: "drone", name: "Drone Photography", price: 299 },
-  { id: "extra-hour", name: "Extra Hour Coverage", price: 199 },
-  { id: "rush", name: "Rush Delivery", price: 149 },
-  { id: "raw", name: "Raw Files", price: 249 },
-  { id: "prints", name: "Premium Prints Package", price: 199 },
-  { id: "second-shooter", name: "Second Photographer", price: 399 },
+  { id: "drone", name: "Drone Photography", price: 3999 },
+  { id: "extra-hour", name: "Extra Hour Coverage", price: 2000 },
+  { id: "rush", name: "Rush Delivery", price: 1500 },
+  { id: "raw", name: "Raw Files", price: 1500 },
+  { id: "prints", name: "Premium Prints Package", price: 7000 },
+  { id: "second-shooter", name: "Second Photographer", price: 5000 },
 ];
 
 const timeSlots = [
@@ -422,7 +422,7 @@ const BookingSystem = () => {
                       </p>
                     </div>
                     <span className="text-[#D4AF37] font-semibold">
-                      ${selectedPackage.price}
+                      ₹{selectedPackage.price}
                     </span>
                   </div>
 
@@ -442,7 +442,7 @@ const BookingSystem = () => {
                               className="flex justify-between text-white/80"
                             >
                               <span>{service.name}</span>
-                              <span>${service.price}</span>
+                              <span>₹{service.price}</span>
                             </div>
                           )
                         );
