@@ -21,7 +21,7 @@
           "raw": "{\"email\": \"admin@example.com\", \"password\": \"admin123\"}"
         },
         "url": {
-          "raw": "http://localhost:5000/api/auth/login",
+          "raw": "https://backend.bookeetube.online/api/auth/login",
           "protocol": "http",
           "host": [
             "localhost"
@@ -46,7 +46,7 @@
           }
         ],
         "url": {
-          "raw": "http://localhost:5000/api/bookings",
+          "raw": "https://backend.bookeetube.online/api/bookings",
           "protocol": "http",
           "host": [
             "localhost"
@@ -64,7 +64,7 @@
       "request": {
         "method": "GET",
         "url": {
-          "raw": "http://localhost:5000/api/photographers",
+          "raw": "https://backend.bookeetube.online/api/photographers",
           "protocol": "http",
           "host": [
             "localhost"

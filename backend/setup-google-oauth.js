@@ -31,8 +31,8 @@ Follow these steps to set up Google OAuth for your application:
    - Click "Create Credentials" > "OAuth client ID"
    - Select "Web application" as the application type
    - Add a name for your OAuth client
-   - Add authorized JavaScript origins (e.g., http://localhost:5173)
-   - Add authorized redirect URIs (e.g., http://localhost:5000/api/auth/google/callback)
+   - Add authorized JavaScript origins (e.g., https://bookeetube.online)
+   - Add authorized redirect URIs (e.g., https://backend.bookeetube.online/api/auth/google/callback)
 
 5. Get your Client ID and Secret
    - After creating credentials, Google will display your Client ID and Secret
@@ -43,8 +43,8 @@ Follow these steps to set up Google OAuth for your application:
 
 GOOGLE_CLIENT_ID=your_client_id_here
 GOOGLE_CLIENT_SECRET=your_client_secret_here
-GOOGLE_CALLBACK_URL=http://localhost:5000/api/auth/google/callback
-FRONTEND_URL=http://localhost:5173
+GOOGLE_CALLBACK_URL=https://backend.bookeetube.online/api/auth/google/callback
+FRONTEND_URL=https://bookeetube.online
 
 7. Restart your server
    - Stop and restart your Node.js server to apply the changes

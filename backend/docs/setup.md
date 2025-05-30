@@ -36,4 +36,4 @@ npm run dev
 ```
 
 Visit:
-- Swagger Docs: http://localhost:5000/api-docs
+- Swagger Docs: https://backend.bookeetube.online/api-docs

@@ -52,7 +52,7 @@ npm test
 
 ## 📊 API Tools
 
-- Swagger Docs: [http://localhost:5000/api-docs](http://localhost:5000/api-docs)
+- Swagger Docs: [https://backend.bookeetube.online/api-docs](https://backend.bookeetube.online/api-docs)
 - Postman Collection: [`/src/docs/postman_collection.json`](src/docs/postman_collection.json)
 
 ---

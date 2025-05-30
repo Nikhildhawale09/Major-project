@@ -74,7 +74,7 @@ exports.googleCallback = async (req, res, next) => {
     };
 
     // Determine redirect URL
-    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://bookeetube.online';
     let redirectUrl = `${frontendUrl}/dashboard`;
     if (user.role === 'admin') {
       const adminConfig = ADMIN_CONFIG.find(admin => 
@@ -94,7 +94,7 @@ exports.googleCallback = async (req, res, next) => {
 
   } catch (err) {
     console.error('Google OAuth error:', err);
-    const frontendUrl = process.env.FRONTEND_URL || 'http://localhost:5173';
+    const frontendUrl = process.env.FRONTEND_URL || 'https://bookeetube.online';
     res.redirect(`${frontendUrl}/login?error=Authentication failed`);
   }
 };
